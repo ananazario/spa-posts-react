@@ -1,19 +1,15 @@
-import Banner from "components/Banner";
 import posts from 'json/posts.json';
-import * as C from "./Inicio";
-import Post from "components/Post";
+import Post from "components/PostCard";
+import './Inicio.css'
 
 export default function Inicio() {
     return (
-        <main>
-            <Banner />
-            <C.ul>
+        <ul className="posts">
             {posts.map((post) => (
-                <li key={post.id}>
-                    <Post post={post} />
-                </li>
+            <li key={post.id}>
+                <Post post={post} />
+            </li>
             ))}
-            </C.ul>
-        </main>
+        </ul>
     )
 }

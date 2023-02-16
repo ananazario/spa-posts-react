@@ -8,7 +8,7 @@ export default function Menu() {
         <header>
             <C.nav>
                 <MenuLink to="/">Inicio</MenuLink>
-                <MenuLink to="/sobremim">Sobre Mim</MenuLink>
+                <MenuLink to="/sobremim">Sobre o React</MenuLink>
             </C.nav>
         </header>
     )
