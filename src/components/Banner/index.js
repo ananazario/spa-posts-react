@@ -5,7 +5,7 @@ export default function Banner() {
         <C.div>
             <div>
                 <h1>Olá mundo!</h1>
-                <p>Venha conhecer mais sobre o React e as maravilhas dessa biblioteca</p>
+                <p>Venha conhecer mais sobre o mundo do desenvolvimento! </p>
             </div>
 
             <div>

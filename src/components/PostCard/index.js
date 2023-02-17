@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Post.css'
+import BotaoPrincipal from 'components/BotaoPrincipal';
 
 export default function PostCard( {post} ) {
     return (
@@ -11,7 +12,9 @@ export default function PostCard( {post} ) {
                     alt="Capa do post" 
                 />
                 <h2>{post.titulo}</h2>
-                <button className='botao-ler'>Ler</button>
+                <BotaoPrincipal>
+                    Ler
+                </BotaoPrincipal>
             </div>
         </Link>
     )
